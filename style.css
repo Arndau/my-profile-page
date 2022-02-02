@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@400;700&display=swap');
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 250px;
+  box-shadow: 0px 10px 30px rgb(128 126 126);
+
+}
+h1{
+    background: linear-gradient(0.25turn, #64a6bd, #b3aabe, #dbdbdb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    width: fit-content;
+
+}
+h2 span {
+  background: linear-gradient(0.25turn, #64a6bd, #b3aabe, #d8d3df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+  .button {
+    background-image: linear-gradient(0.25turn, #64a6bd, #b3aabe, #d8d3df)
+  }
+  .button {
+     width: 230px;
+     margin: 50px;
+     padding: 15px 15px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 100% auto;
+     color: white;
+     box-shadow: 0 0 20px #eee;
+     border-radius: 20px;
+     display: block;
+   }
+
+   .button {
+     background-position: left center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+
+/* .button {
+  background: linear-gradient(0.25turn, #64a6bd, #b3aabe, #d8d3df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 5px solid linear-gradient(0.25turn, #64a6bd, #b3aabe, #d8d3df);
+  color: black;
+
+} */
+
+  a:hover {
+    color: #ffffff;
+    border-radius: 100px;
+  }
+  .header {
+  border: 0px solid rgb(76, 30, 161);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #FFFFFF
+  }
+.content_text {
+  border: 0px solid rgb(126, 91, 91);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #FFFFFF
+}
+.content_text a {
+  border: 0px solid rgb(56, 0, 160);
+  border-radius: 50px;
+}
+.footer ul {
+  padding: 0px;
+  list-style: none;
+}
+.footer li{
+  display: inline-block;
+  font-size: 40px;
+}
+
+.footer{
+  background-image: linear-gradient(0.25turn, #64a6bd, #b3aabe, #d8d3df);
+  border: 0px solid #B9B1C4;
+  border-radius: 20px;
+  box-shadow:cornflowerblue;
+  padding : 10px;
+}
+.footer{
+  background-position: left center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
